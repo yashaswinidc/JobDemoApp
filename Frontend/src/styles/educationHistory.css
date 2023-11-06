@@ -1,0 +1,17 @@
+p {
+  margin-bottom: 0 !important;
+}
+
+.educationHistory {
+  margin: 0 20px;
+}
+
+.institution {
+  color: #7e7878;
+  margin-bottom: 0;
+}
+
+.title {
+  margin-bottom: 0;
+  display: inline-block;
+}

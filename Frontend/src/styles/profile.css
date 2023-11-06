@@ -1,0 +1,171 @@
+/* Reset default browser styles */
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* ProfileCard section stylings */
+.profile-page {
+  width: 100%;
+  align-self: flex-start;
+}
+.profile-page-card {
+  background-color: white;
+}
+.profile-page-card,
+.profile-other-details {
+  display: flex;
+  border: 1px solid #131212;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 30px 70px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: auto;
+  height: 100%;
+}
+
+.profile-image {
+  display: grid;
+  padding: 10px;
+  margin: 25px;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.profile-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid #6e6d6d;
+}
+
+.profile-other-details {
+  border: none;
+  box-shadow: none;
+}
+
+/* Other contents stylings */
+.left-cardview {
+  /* border: 1px solid #131212; */
+  border-radius: 15px;
+  padding: 10px;
+  margin: 5px 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 25%;
+  height: fit-content;
+  background-color: white;
+}
+
+.right-cardview {
+  border: none;
+  width: 75%;
+  margin: 5px 5px;
+}
+
+.education-header,
+.workhistory-header,
+.projects-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Resume container styllings */
+.resume-container,
+.resume-container,
+.keyskills-container,
+.workhistory-container,
+.education-container,
+.projects-container,
+.profile-summary-container {
+  height: auto;
+  width: 100%;
+  border: 1px solid #131212;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resume-content {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-links {
+  font-size: large;
+  text-decoration: none;
+  color: #201e1e;
+  padding-bottom: 15px;
+  margin-left: 10px;
+  display: block;
+}
+.function-link {
+  text-decoration: none;
+  padding: 5px;
+}
+
+.attached-resume {
+  margin: 0;
+}
+
+.links {
+  text-decoration: none;
+  padding: 5px;
+}
+
+.download-link {
+  margin-right: 10px;
+}
+
+.drop-box {
+  border: 1px dashed #131212;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.history-link {
+  text-decoration: none;
+  align-content: end;
+}
+
+/* Resume headline stylings */
+.header-content {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Key skills section stylings */
+.key-skills {
+  margin-top: 10px;
+}
+
+.key-skill-label {
+  display: inline-block;
+  background-color: #f0f0f0;
+  padding: 3px 6px;
+  margin: 0 5px 5px 0;
+  border-radius: 5px;
+}
+
+.edit-btn {
+  border: none;
+  background: none;
+}
+
+/* Generic styles */
+h2 {
+  color: gray;
+}
+
+p {
+  color: black !important;
+  font-style: normal;
+  font-weight: 200;
+}

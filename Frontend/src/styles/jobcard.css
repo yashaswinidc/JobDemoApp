@@ -1,0 +1,66 @@
+.job-card {
+  background-color: white !important;
+  border: none !important;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 15px;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-card-header {
+  display: flex;
+  align-items: center;
+}
+
+.job-card-body {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.separator {
+  margin: 0 5px;
+}
+
+.skillset-description {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.text-file-icon {
+  margin-right: 5px;
+}
+
+.key-skills {
+  margin-top: 10px;
+}
+
+.key-skill-label {
+  display: inline-block;
+  background-color: #f0f0f0;
+  padding: 3px 6px;
+  margin: 0 5px 5px 0;
+  border-radius: 25px;
+}
+
+.applySection {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end; /* Align button to the right corner */
+}
+
+.applySection button {
+  background-color: blue;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  color: white;
+  padding: 5px 15px;
+  cursor: pointer;
+}

@@ -1,0 +1,86 @@
+/* Reset default browser styles */
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.homepage {
+  width: 100%;
+  display: flex;
+  margin: 40px 60px;
+}
+
+/* Left content stylings */
+.left-container {
+  border: 1px solid #c5c1c1;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 5px 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 25%;
+  height: fit-content;
+  /* background-color: #c7c4cce0; */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Profile section stylings */
+.profile-section,
+.quick-links-container {
+  width: 100%;
+  height: fit-content;
+  margin: 5px 0 !important;
+  border: 1px solid #f5f2f2;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.profileimage img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.home-page-button {
+  background-color: blue;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  color: white;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+/* Quick links stylings */
+.quick-links-container {
+  align-items: start;
+}
+
+.quick-links {
+  margin: 10px 25px;
+  text-decoration: none;
+  font-size: large;
+  color: #131212;
+}
+
+/* Right container stylings */
+.right-container {
+  border: none;
+  width: 75%;
+  margin: 5px 20px;
+}
+
+/* Job Card stylings */
+.job-card-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
